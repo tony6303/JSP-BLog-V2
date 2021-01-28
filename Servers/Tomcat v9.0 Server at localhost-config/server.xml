@@ -153,13 +153,13 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="blog" path="/blog" reloadable="true" source="org.eclipse.jst.jee.server:blog"/><Context docBase="ajax" path="/ajax" reloadable="true" source="org.eclipse.jst.jee.server:ajax"/><Context docBase="ExpressBus" path="/ExpressBus" reloadable="true" source="org.eclipse.jst.jee.server:ExpressBus"/><Context docBase="blogtest" path="/blogtest" reloadable="true" source="org.eclipse.jst.jee.server:blogtest"/><Context docBase="juso" path="/juso" reloadable="true" source="org.eclipse.jst.jee.server:juso"/>
+      <Context docBase="ajax" path="/ajax" reloadable="true" source="org.eclipse.jst.jee.server:ajax"/><Context docBase="ExpressBus" path="/ExpressBus" reloadable="true" source="org.eclipse.jst.jee.server:ExpressBus"/><Context docBase="blogtest" path="/blogtest" reloadable="true" source="org.eclipse.jst.jee.server:blogtest"/><Context docBase="juso" path="/juso" reloadable="true" source="org.eclipse.jst.jee.server:juso"/>
 
       <Context docBase="ExpressBus" path="/ExpressBus" reloadable="true" source="org.eclipse.jst.jee.server:ExpressBus"/> 
       <Context docBase="juso" path="/juso" reloadable="true" source="org.eclipse.jst.jee.server:juso"/>
 
       <Context docBase="blog" path="/blog" reloadable="true" source="org.eclipse.jst.jee.server:blog"/>
-      <Context docBase="ExpressBus" path="/ExpressBus" reloadable="true" source="org.eclipse.jst.jee.server:ExpressBus"/><Context docBase="blog" path="/blog" reloadable="true" source="org.eclipse.jst.jee.server:blog"/></Host>
+      <Context docBase="blog" path="/blog" reloadable="true" source="org.eclipse.jst.jee.server:blog"/></Host>
 
     </Engine>
   </Service>
